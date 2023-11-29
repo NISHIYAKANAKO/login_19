@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0; /* Bodyのマージンを0に設定 */
+}
+
+header {
+    background-color: #ffd61a;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #ffd61a;
+    margin-right: 20px; 
+}
+
+form {
+    margin-bottom: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+img {
+    display: block;
+    margin: 30px auto; /* 画像を水平方向に中央揃え */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input{
+    width: 100%; /* 入力欄の幅を100%に設定 */
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #ffd61a;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 0 auto; /* 横方向に中央寄せ */
+    width: 150px; 
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #ffd61a;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* 横並びのスタイルを追加 */
+label, input {
+    display: flex;
+    align-items: center;
+}
+
+/* フォーム内の余白調整 */
+form p {
+    margin: 20px 200px;
+}
